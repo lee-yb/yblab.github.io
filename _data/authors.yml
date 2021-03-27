@@ -4,6 +4,7 @@ Lee Young Bum:
   name        : "Lee Young Bum"
   bio         : "자기소개"
   avatar      : "/assets/images/1.jpg"
+  location: "Republic of Korea"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
