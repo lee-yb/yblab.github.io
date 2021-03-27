@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://lee-yb.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lee-yb.github.io/" rel="alternate" type="text/html" /><updated>2021-03-28T00:22:21+09:00</updated><id>https://lee-yb.github.io/feed.xml</id><title type="html">YB LAB</title><subtitle>learning blog</subtitle><author><name>Lee Young Bum</name></author><entry><title type="html">github.io 블로그 생성!!</title><link href="https://lee-yb.github.io/github/first-post/" rel="alternate" type="text/html" title="github.io 블로그 생성!!" /><published>2021-03-27T07:26:28+09:00</published><updated>2021-03-27T07:26:28+09:00</updated><id>https://lee-yb.github.io/github/first-post</id><content type="html" xml:base="https://lee-yb.github.io/github/first-post/">&lt;p&gt;첫번째 게시물&lt;/p&gt;
+
+&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;h3 id=&quot;소제목&quot;&gt;소제목&lt;/h3&gt;
+&lt;p&gt;​&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;코드블럭 python
+def print_hi(name):
+  print(&quot;hello&quot;, name)
+print_hi(&apos;Tom&apos;)
+​&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;링크거는법&quot;&gt;링크거는법&lt;/h3&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Lee Young Bum</name></author><category term="github" /><category term="github" /><summary type="html">첫번째 게시물</summary></entry></feed>
