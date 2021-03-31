@@ -1,19 +1,17 @@
-I"Õ
+I"v
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/1.jpg" alt="YB LAB"></a>
+          <a class="site-logo" href="/"><img src="/assets/images/brand.png" alt="YB LAB"></a>
         
         <a class="site-title" href="/">
           YB LAB
           <span class="site-subtitle">Tech blog</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/year-archive/">Posts</a>
-            </li><li class="masthead__menu-item">
               <a href="/categories/">Categories</a>
             </li><li class="masthead__menu-item">
               <a href="/tags/">Tags</a>

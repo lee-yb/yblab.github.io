@@ -9,32 +9,28 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>github.io 블로그 생성!! - YB LAB</title>
-<meta name="description" content="첫번째 게시물">
+<!-- begin _includes/seo.html --><title>Posts by Year - YB LAB</title>
+<meta name="description" content="learning blog">
 
 
   <meta name="author" content="Lee Young Bum">
   
-  <meta property="article:author" content="Lee Young Bum">
-  
 
 
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="YB LAB">
-<meta property="og:title" content="github.io 블로그 생성!!">
-<meta property="og:url" content="https://lee-yb.github.io/github/first-post/">
+<meta property="og:title" content="Posts by Year">
+<meta property="og:url" content="https://lee-yb.github.io/year-archive/">
 
 
-  <meta property="og:description" content="첫번째 게시물">
-
-
-
+  <meta property="og:description" content="learning blog">
 
 
 
 
-  <meta property="article:published_time" content="2021-03-27T07:26:28+09:00">
+
+
 
 
 
@@ -45,7 +41,7 @@
   
 
 
-<link rel="canonical" href="https://lee-yb.github.io/github/first-post/">
+<link rel="canonical" href="https://lee-yb.github.io/year-archive/">
 
 
 
@@ -108,7 +104,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--posts">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -129,15 +125,13 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/1.jpg" alt="YB LAB"></a>
+          <a class="site-logo" href="/"><img src="/assets/images/brand.png" alt="YB LAB"></a>
         
         <a class="site-title" href="/">
           YB LAB
           <span class="site-subtitle">Tech blog</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/year-archive/">Posts</a>
-            </li><li class="masthead__menu-item">
               <a href="/categories/">Categories</a>
             </li><li class="masthead__menu-item">
               <a href="/tags/">Tags</a>
@@ -176,17 +170,7 @@
         <span class="sep">/</span>
       
       
-        
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/categories/#github" itemprop="item"><span itemprop="name">Github</span></a>
-          <meta itemprop="position" content="2" />
-        </li>
-        <span class="sep">/</span>
-      
-    
-      
-      
-        <li class="current">github.io 블로그 생성!!</li>
+        <li class="current">Posts by Year</li>
       
     
   </ol>
@@ -217,7 +201,9 @@
     
     
       <div class="author__bio" itemprop="description">
-        <p>자기소개</p>
+        <p>Programmer</p>
+
+<p>Web, Server, Database</p>
 
       </div>
     
@@ -312,18 +298,44 @@
 
 
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="github.io 블로그 생성!!">
-    <meta itemprop="description" content="첫번째 게시물">
-    <meta itemprop="datePublished" content="2021-03-27T07:26:28+09:00">
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Posts by Year</h1>
+    
     
 
-    <div class="page__inner-wrap">
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2021">
+        <strong>2021</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+
+  <section id="2021" class="taxonomy__section">
+    <h2 class="archive__subtitle">2021</h2>
+    <div class="entries-list">
       
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">github.io 블로그 생성!!
-</h1>
-          
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/second/" rel="permalink">두번째포스트
+</a>
+      
+    </h2>
+    
 
   <p class="page__meta">
     
@@ -344,103 +356,61 @@
   </p>
 
 
-        </header>
-      
-
-      <section class="page__content" itemprop="text">
-        
-          <aside class="sidebar__right sticky">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> My Table of Contents</h4></header>
-              <ul class="toc__menu"><li><a href="#소제목">소제목</a></li><li><a href="#링크거는법">링크거는법</a></li></ul>
-
-            </nav>
-          </aside>
-        
-        <p>첫번째 게시물</p>
-
-<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<h3 id="소제목">소제목</h3>
-<p>​<code class="language-plaintext highlighter-rouge">코드블럭 python
-def print_hi(name):
-  print("hello", name)
-print_hi('Tom')
-​</code></p>
-
-<h3 id="링크거는법">링크거는법</h3>
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-  
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/tags/#github" class="page__taxonomy-item" rel="tag">github</a>
-    
-    </span>
-  </p>
-
-
-
-
-  
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/categories/#github" class="page__taxonomy-item" rel="tag">github</a>
-    
-    </span>
-  </p>
-
-
-        
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2021-03-27T07:26:28+09:00">March 27, 2021</time></p>
-
-
-      </footer>
-
-      
-
-      
-    </div>
-
-    
+    <p class="archive__item-excerpt" itemprop="description">어드민에서작성
+</p>
   </article>
-
-  
-  
-    <div class="page__related">
-      <h4 class="page__related-title">참고</h4>
-      <div class="grid__wrapper">
-        
-          
-            
-      </div>
-    </div>
-  
 </div>
 
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/github/first-post/" rel="permalink">[github.io] blog 생성!!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">블로그를 써보기로 함.
+개발자들이 많이쓰는 블로그를 검색해본 결과 여러테마도 지원하고 github 네임밸류로 깃헙블로그를 만들어보기로함.
+확실히 개발자 아니면 사용하기 힘들어보임. 그래도 ganzi나니까 나는 만듬.
+</p>
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
+  </section>
+
+
+  </div>
+</div>
     </div>
 
     
