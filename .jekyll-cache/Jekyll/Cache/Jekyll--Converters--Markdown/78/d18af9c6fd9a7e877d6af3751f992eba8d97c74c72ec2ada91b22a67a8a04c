@@ -1,0 +1,58 @@
+I"�<h1 id="npm-node-package-manager">npm (Node Package Manager)</h1>
+
+<p>자바스크립트 패키지 매니저, nodeJS에서 사용할수있는 모듈들을 패키지화하여 모아둔 저장소 역할을 하며 설치/관리를 수행할수 있는 CLI를 제공한다.</p>
+
+<h3 id="packagejson">package.json</h3>
+
+<p>package.json은 프로젝트의 정보를 정의하고, 의존하는 패키지 버전 정보를 명시하는 파일.</p>
+
+<p>Spring의 pom.xml과 같은 역할.</p>
+
+<p>이 글에서는 기본적으로 알아야할 내용만 기술할 예정이고, 자세한 정보는 npm 문서에서 [package.json][https://docs.npmjs.com/cli/v7/configuring-npm/package-json] 확인가능.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">#</span><span class="w"> </span><span class="err">Vue-cli로</span><span class="w"> </span><span class="err">생성한</span><span class="w"> </span><span class="err">프로젝트의</span><span class="w"> </span><span class="err">package.json</span><span class="w"> </span><span class="err">예시</span><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vue-practice"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">필수</span><span class="w">
+  </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0.1.0"</span><span class="p">,</span><span class="w">	</span><span class="err">//</span><span class="w"> </span><span class="err">필수</span><span class="w">
+  </span><span class="nl">"private"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w"> 
+  </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">해당</span><span class="w"> </span><span class="err">수명주기(key)에</span><span class="w"> </span><span class="err">실행될</span><span class="w"> </span><span class="err">명령어(value)</span><span class="w">
+    </span><span class="nl">"serve"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vue-cli-service serve"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vue-cli-service build"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"lint"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vue-cli-service lint"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"dependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">프로그램에</span><span class="w"> </span><span class="err">필요한</span><span class="w"> </span><span class="err">패키지</span><span class="w">
+    </span><span class="nl">"core-js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.6.5"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"vue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.0.0"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"devDependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">로컬</span><span class="w"> </span><span class="err">개발</span><span class="w"> </span><span class="err">및</span><span class="w"> </span><span class="err">테스트에만</span><span class="w"> </span><span class="err">필요한</span><span class="w"> </span><span class="err">패키지</span><span class="w">
+    </span><span class="nl">"@vue/cli-plugin-babel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~4.5.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"@vue/cli-plugin-eslint"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~4.5.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"@vue/cli-service"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~4.5.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"@vue/compiler-sfc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.0.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"babel-eslint"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^10.1.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"eslint"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^6.7.2"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"eslint-plugin-vue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^7.0.0"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"eslintConfig"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">eslint는</span><span class="w"> </span><span class="err">js</span><span class="w"> </span><span class="err">문법에서</span><span class="w"> </span><span class="err">에러를</span><span class="w"> </span><span class="err">찾아주는</span><span class="w"> </span><span class="err">도구.</span><span class="w">
+    </span><span class="nl">"root"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"env"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"node"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"extends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="s2">"plugin:vue/vue3-essential"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"eslint:recommended"</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"parserOptions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"parser"</span><span class="p">:</span><span class="w"> </span><span class="s2">"babel-eslint"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"rules"</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"browserslist"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">지정된</span><span class="w"> </span><span class="err">브라우저와</span><span class="w"> </span><span class="err">호환되도록</span><span class="w"> </span><span class="err">js를</span><span class="w"> </span><span class="err">제어하는</span><span class="w"> </span><span class="err">도구</span><span class="w">
+    </span><span class="s2">"&gt; 1%"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"last 2 versions"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"not dead"</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+:ET

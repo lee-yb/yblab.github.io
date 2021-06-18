@@ -285,8 +285,8 @@ defaults:
       share: false
       related: true
       
-      cartegory: null
-      tag: null
+      categories: null
+      tags: null
       toc: true
       toc_label: My Table of Contents
       toc_sticky: true

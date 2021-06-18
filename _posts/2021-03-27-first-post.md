@@ -1,10 +1,9 @@
 ---
 title: "[github.io] blog 생성!!"
-date: '2021-03-26 18:26:28 -0400'
+date: '2021-03-26' # 18:26:28 -0400'
 categories:
 - blog
 - github
-tag: []
 # toc: true
 # toc_label: My Table of Contents
 # toc_sticky: true
